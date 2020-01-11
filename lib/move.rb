@@ -11,9 +11,8 @@ board
 def input_to_index(array, index, value)
   puts "Welcome to Tic Tac Toe!"
   puts "Where would you like to go?"
-  value = gets.strip 
+  value = gets.strip
   array[index] = value
-end 
+end
 
 input_to_index(board, 0, "X")
-
